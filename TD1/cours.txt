@@ -1,0 +1,13 @@
+Pour definir une matrice double M[L][C] en C on fait 
+	double **M;
+	M=(double*)malloc(sizeof(double*)*L);
+	for(int i;i<L;i++){
+		M[i]=(double)malloc(sizeof(double)*C;
+	}
+	
+En C++ on va faire :
+int **tab;
+tab=new int*[L];
+for(int i;i<L;i++){
+	tab[i]=new int[C];
+}
