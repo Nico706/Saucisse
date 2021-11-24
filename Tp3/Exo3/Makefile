@@ -3,7 +3,7 @@ args = -g -Wall -Wextra
 all: test
 
 # linker
-test: main.o Matrice.o Vecteur3d.o
+test: main.o Classe.o
 	g++ -Wall $^ -o $@
 
 #compil fichier objet
